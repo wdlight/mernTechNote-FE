@@ -3,7 +3,7 @@ import { setCredentials } from '../../features/auth/authSlice'
 
 // set baseQuery to have token in header
 const baseQuery = fetchBaseQuery({
-  baseUrl: process.env.BASE_URL,
+  baseUrl: 'https://widetechshop-api.onrender.com',
   credentials: 'include',
   prepareHeaders: (headers, { getState }) => {
     const token = getState().auth.token
