@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
-import { useAddNewUserMutation } from './UsersApiSlice'
+import { useAddNewUserMutation } from './usersApiSlice'
 import { useNavigate } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSave, faUndo } from '@fortawesome/free-solid-svg-icons'
